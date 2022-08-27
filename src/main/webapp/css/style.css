@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+:root {
+	--bgTableHead:#464646;
+	--preto:#000000;
+	--cinza:#7E7E7E;
+	--white:#FFFFFF;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+h1{
+	font-size: 30px;
+}
+
+nav{
+	height:50px;
+	background-color: var(--cinza);
+	padding-bottom: 5px;
+}
+
+footer{
+	height:50px;
+	background-color: var(--preto);
+	padding-bottom: 5px;
+	bottom:0px;
+	position: fixed;
+	width:100%;
+	text-align:center;
+}
+
+table, th , td{
+	margin:auto;
+	margin-top:20px;
+	padding:5px;
+	border:1px solid;
+	border-collapse:collapse;
+}
+table{
+	width:95%;
+}
+
+th{
+	font-size:14px;
+	background-color: var(--bgTableHead);
+	color: var(--white);
+}
+
+.center{
+	margin:auto;
+	width:50%;
+	
+}
+.linha{
+	margin-bottom:5px;
+}
+
+#txtCodigo{
+	min-width:400px;
+}
